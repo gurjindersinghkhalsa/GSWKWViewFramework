@@ -1,0 +1,11 @@
+framework module GSWKWViewFramework {
+  umbrella header "GSWKWViewFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module GSWKWViewFramework.Swift {
+    header "GSWKWViewFramework-Swift.h"
+    requires objc
+}
