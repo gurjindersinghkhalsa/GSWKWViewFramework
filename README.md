@@ -6,11 +6,13 @@ Step 1. Download  GSWKWViewFramework.
 Step 2. Import GSWKWViewFramework in you contoller
 import GSWKWViewFramework
 
-Step 3. Add
+Step 3. 
 For URL loading use below method
+
 GSWKWView.shared.pushGWKWView(loadURL: <#T##String#>, fromVC: <#T##UIViewController#>)
 
 For HTML use below method
+
 GSWKWView.shared.pushGWKWView(loadHTMLString: <#T##String#>, fromVC: <#T##UIViewController#>)
 
 For printing logs
